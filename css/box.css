@@ -1,0 +1,12 @@
+.box {
+	float: center;
+	width: 100%;
+	margin: 25px;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+
+
+
+.wine {
+	background: #ae163e;
+}

@@ -1,0 +1,26 @@
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin-left: 0;
+	width: 100%;
+}
+
+ul.horizontal-list {
+	width: 100%;
+	list-style: none;
+	margin-left: 0;
+}
+
+ul.horizontal-list li {
+	display: inline;
+	width: 100%;
+}
+
+ol.horizontal-list {
+	width: 100%;
+	list-style: upper-latin;
+}
+ol.horizontal-list li {
+	display: inline;
+	width: 100%;
+}

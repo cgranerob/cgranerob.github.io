@@ -1,0 +1,76 @@
+.demo:after { content: ''; clear: both; visibility: hidden;       background-color: white;
+}
+.demo2:after { content: ''; clear: both; visibility: hidden;      background-color: white;
+}/* blue*/
+.demo3:after { content: ''; clear: both; visibility: hidden;      background-color: white;
+}/* blue*/
+
+.pr,.pr2   { overflow: hidden }
+
+
+@media screen and (min-width: 1024px) {   /* pc tablet*/
+  .pr {
+    width: 50%;
+    margin: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {   /* pc tablet*/
+  .pr2 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {   /* pc tablet */
+ .demo {
+   margin-top:4em;
+   padding-right: 10%;
+   padding-left: 10%;
+   padding-top: 0%;
+   background-color: white;
+   padding-bottom: 0%;
+   }/* blue*/
+ }
+
+ @media screen and (min-width: 1024px) {   /* pc tablet */
+  .demo2  {
+   margin-top:4em;
+   margin-left: 5em;
+   margin-right: 5em;
+   background-color: white;
+
+ }
+ }/* blue*/
+
+ @media screen and (min-width: 1024px) {   /* pc tablet */
+  .demo3  {
+   margin-top:0em;
+   margin-left: 5em;
+   margin-right: 5em;
+   background-color: white;
+
+ }
+ }/* blue*/
+
+ 
+
+ @media screen and (max-width: 1024px) {   /* phone */
+  .pr {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {   /* phone */
+  .demo,.demo2 {
+   margin-top:6.5em;
+
+   background-color: white;}
+   }/* red*/
+
+   @media screen and (max-width: 768px) {   /* phone */
+    .demo,.demo2 {
+     margin-top:10em;
+     background-color: white;
+
+   }
+}/* green*/

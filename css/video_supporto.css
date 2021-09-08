@@ -1,0 +1,162 @@
+
+@media screen and (min-width: 1024px) { 
+    #videoarea1 {
+        float:left;
+        width:50%;
+        border:3px solid #00334d;
+    }
+}
+
+@media screen and (max-width: 1024px) { 
+    #videoarea1 {
+        float:center;
+        width:90%;
+        padding-left: 5%;
+        padding-right: 5%;    
+        border:3px solid #00334d;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) { 
+    #videoarea2,#videoarea3,#videoarea4,#videoarea5,#videoarea6,#videoarea7,#videoarea8{
+     display: inline-block;
+     width:80%;
+     border:3px solid #00334d;
+ }
+}
+
+@media screen and (max-width: 1024px) { 
+    #videoarea2,#videoarea3,#videoarea4,#videoarea5,#videoarea6,#videoarea7,#videoarea8 {
+     width:90%;
+     border:3px solid #00334d;
+ }
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+#playlist1  {
+    display:table;
+    line-height: 30px;
+    padding-top:10%; 
+    padding-left:2%;
+
+}
+
+#playlist1  li{
+    cursor:pointer;
+    list-style-type: none;
+    width: 100%;
+    text-decoration: none;
+    color: #FF6600;
+}
+
+#playlist1  li:hover{
+    text-decoration: none;}
+
+@media screen and (max-width: 1024px) { 
+        #playlist1  {
+         padding-left: -10%;
+         float: left;
+     }
+
+     #playlist1  li{
+        text-align: left;
+    }
+
+}
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+#playlist2,#playlist3,#playlist4,#playlist5,#playlist6,#playlist7,#playlist8   {
+    display:table;
+    line-height: 30px;
+    margin-left: : 0px;
+    width: 90%;
+    text-align: center;
+}
+
+#playlist2,#playlist3,#playlist4,#playlist5,#playlist6,#playlist7,#playlist8  li{
+    cursor:pointer;
+    list-style-type: none;
+    color: #FF6600;
+}
+
+#playlist2,#playlist3,#playlist4,#playlist5,#playlist6,#playlist7,#playlist8  li:hover{
+    {
+        text-decoration: underline ; 
+    }
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+#playlist3  {
+    display:table;
+    line-height: 30px;
+    margin-left: : 0px;
+    width: 90%;
+    text-align: center;
+}
+
+#playlist3 li{
+    cursor:pointer;
+    list-style-type: none;
+    color: #FF6600;
+}
+
+#playlist3 li:hover{
+    {
+        color: #FF6600; 
+    }
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+#playlist4,#playlist5,#playlist6,#playlist7,#playlist8,#playlist9,#playlist10 {
+    display:table;
+    line-height: 30px;
+    margin-left: : 0px;
+    width: 90%;
+    text-align: left;
+}
+
+#playlist4,#playlist5,#playlist6,#playlist7,#playlist8,#playlist9,#playlist10 li{
+    cursor:pointer;
+    list-style-type: none;
+    color: #FF6600;
+}
+
+#playlist4,#playlist5,#playlist6,#playlist7,#playlist8,#playlist9,#playlist10 li:hover{
+    {
+        color: #FF6600; 
+        text-decoration: underline;
+    }
+
+
+
+
+
+    /*@media screen and (max-width: 768px) {    
+        #playlist2,#playlist3,#playlist4,#playlist5,#playlist6,#playlist7,#playlist8,#playlist9,#playlist10 {
+
+            margin: 0px;
+            text-align: left;
+            width: 90%;
+
+        }
+
+
+    }*/
+ 
+
+
+
+
